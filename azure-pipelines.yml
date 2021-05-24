@@ -26,7 +26,7 @@ steps:
     script: |
       steps:
       - bash: |
-          git push --prune https://$(GITHUB_PAT)@https://github.com/Cyntern/pipelines-java \
+          git push --prune https://$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@https://github.com/Cyntern/pipelines-java \
               +refs/remotes/origin/*:refs/heads/* +refs/tags/*:refs/tags/*
         displayName: 'Copy to Github'
         condition: eq(variables['Build.SourceBranch'], 'refs/heads/master')
