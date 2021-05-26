@@ -1,6 +1,6 @@
 import com.microsoft.demo.Demo;
 import org.junit.Test;
-// this is a comment
+
 public class MyTest {
     @Test
     public void test_method_1() {
